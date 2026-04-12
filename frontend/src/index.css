@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #f0f4ff;
+  --color-primary-100: #d9e2ff;
+  --color-primary-200: #bccaff;
+  --color-primary-300: #8fa7ff;
+  --color-primary-400: #5c78ff;
+  --color-primary-500: #3752e3;
+  --color-primary-600: #2539c9;
+  --color-primary-700: #1d2ca3;
+  --color-primary-800: #1c2883;
+  --color-primary-900: #1d266b;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/20 shadow-2xl;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-500 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 shadow-lg shadow-primary-600/20 hover:shadow-primary-600/40 transform hover:-translate-y-0.5 active:translate-y-0 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 bg-white/50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500 focus:bg-white transition-all duration-300;
+  }
+}
+
+.mesh-gradient {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(225, 100%, 94%, 1) 0, transparent 50%),
+    radial-gradient(at 50% 0%, hsla(225, 100%, 90%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(225, 100%, 85%, 1) 0, transparent 50%);
+}
