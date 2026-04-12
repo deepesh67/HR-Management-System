@@ -84,7 +84,7 @@ Note: Do not commit your actual `.env` file to GitHub.
 
 ## Deployment
 
-Frontend: hr-management-system-nine-amber.vercel.app
+Frontend: https://hr-management-system-nine-amber.vercel.app
 Backend: https://hr-management-system-backend-c65t.onrender.com
 
 ---
