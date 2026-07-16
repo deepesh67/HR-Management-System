@@ -171,13 +171,13 @@ root/
 
 ## Credentials
 
-EMPLOYEE
+ADMIN
 Email: [deepesh4938@gmail.com](mailto:deepesh4938@gmail.com)
 Password: 123456
 
-ADMIN
+EMPLOYEE 
 Email: [khushijangid1902@gmail.com](mailto:khushijangid1902@gmail.com)
-Password: 123456
+Password: 1234567
 
 ---
 
